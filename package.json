@@ -2,9 +2,10 @@
   "name": "passport-js-login",
   "version": "1.0.0",
   "description": "Login system using password JS",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,19 @@
   "bugs": {
     "url": "https://github.com/thijsBoet/passport-js-login/issues"
   },
-  "homepage": "https://github.com/thijsBoet/passport-js-login#readme"
+  "homepage": "https://github.com/thijsBoet/passport-js-login#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.12.1",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
