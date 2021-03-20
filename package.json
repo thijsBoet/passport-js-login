@@ -1,0 +1,23 @@
+{
+  "name": "passport-js-login",
+  "version": "1.0.0",
+  "description": "Login system using password JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thijsBoet/passport-js-login.git"
+  },
+  "keywords": [
+    "login",
+    "passport"
+  ],
+  "author": "matthijs boet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thijsBoet/passport-js-login/issues"
+  },
+  "homepage": "https://github.com/thijsBoet/passport-js-login#readme"
+}
